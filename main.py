@@ -14,6 +14,37 @@ KEY_DATABASE = {
         "STARLINK-CODE-207441",
         "STARLINK-CODE-502453"
     ]
+
+
+    "KEY101": "STARLINK-CODE-400325",
+              "STARLINK-CODE-181505",
+              "STARLINK-CODE-238064",
+    "KEY969": "STARLINK-CODE-458072",
+              "STARLINK-CODE-225711",
+              "STARLINK-CODE-485377",
+    
+    "KEY_092": "STARLINK-CODE-882054",
+               "STARLINK-CODE-446223",
+               "STARLINK-CODE-754407",
+
+    "KEY_124": "STARLINK-CODE-451261",
+               "STARLINK-CODE-565168",
+               "STARLINK-CODE-627148",
+
+    "KEY_647": "STARLINK-CODE-232465"
+               "STARLINK-CODE-101751",
+               "STARLINK-CODE-878010",
+    "KEY_600": "STARLINK-CODE-678383"
+               "STARLINK-CODE-415681"
+               "STARLINK-CODE-524210"
+    "KEY_001": "STARLINK-CODE-302727"
+               "STARLINK-CODE-510286"
+               "STARLINK-CODE-428854"
+    "KEY_650": "STARLINK-CODE-562710"
+               "STARLINK-CODE-144444"
+               "STARLINK-CODE-585106"
+    
+
 }
 
 @bot.message_handler(commands=['start'])
