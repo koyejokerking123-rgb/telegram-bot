@@ -1,5 +1,20 @@
+import os
+import threading
+from flask import Flask
 import telebot
 
+# Render အတွက် Port Bind စေရန် Flask Web Server အတု ဆောက်ခြင်း
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "Bot is alive!"
+
+def run_flask():
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
+
+# Telegram Bot Token
 BOT_TOKEN = "8810223968:AAHB9zKAFnKFrmPdvDI162KnCE-gI3b-WcI"
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -69,5 +84,8 @@ def process_key(message):
     else:
         bot.reply_to(message, "Key မမှန်ပါ သို့မဟုတ် သက်တမ်းကုန်ဆုံးသွားပါပြီ။")
 
-print("Bot စတင်အလုပ်လုပ်နေပါပြီ...")
-bot.infinity_polling()
+if __name__ == "__main__":
+    # Flask ကို Thread နဲ့ သီးသန့် Run မည်
+    threading.Thread(target=run_flask).start()
+    print("Bot စတင်အလုပ်လုပ်နေပါပြီ...")
+    bot.infinity_polling()
