@@ -34,9 +34,9 @@ KEY_DATABASE = {
     "VIPV793": {"type": "VIPV (1 Month)", "status": "ACTIVE", "codes": ["STARLINK-CODE-331631"]},
     "VIPV412": {"type": "VIPV (1 Day)", "status": "ACTIVE", "codes": ["STARLINK-CODE-684337"]},
     "VIPV856": {"type": "VIPV (1 Day)", "status": "ACTIVE", "codes": ["STARLINK-CODE-151040"]},
-    "VIPV614": {"type": "VIPV (1 Day)", "status": "ACTIVE", "codes": ["STARLINK-CODE-981240"]},
+    "VIPV614": {"type": "VIPV (1 Day)", "status": "ACTIVE", "codes": ["STARLINK-CODE-475185"]},
 
-    # --- VIP 3H KEYS (13) ---
+    # --- VIP KEYS 3 HOURS (15) ---
     "VIP873": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-664842", "STARLINK-CODE-786230"]},
     "VIP419": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-564636", "STARLINK-CODE-367567"]},
     "VIP632": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-443858", "STARLINK-CODE-688006"]},
@@ -50,13 +50,16 @@ KEY_DATABASE = {
     "VIP834": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-401928", "STARLINK-CODE-619204"]},
     "VIP192": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-209418", "STARLINK-CODE-810294"]},
     "VIP475": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-301948", "STARLINK-CODE-910284"]},
+    "VIP712": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-764127", "STARLINK-CODE-885753"]},
+    "VIP935": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-434464", "STARLINK-CODE-811545"]},
 
-    # --- NA LIMITED KEYS (3) ---
+    # --- NA LIMITED KEYS (4) ---
     "NA384": {"type": "Normal (N/A Limited)", "status": "ACTIVE", "codes": ["STARLINK-CODE-503216", "STARLINK-CODE-755504", "STARLINK-CODE-760863"]},
     "NA921": {"type": "Normal (N/A Limited)", "status": "ACTIVE", "codes": ["STARLINK-CODE-528586", "STARLINK-CODE-667450", "STARLINK-CODE-467862"]},
-    "NA608": {"type": "Normal (N/A Limited)", "status": "ACTIVE", "codes": ["STARLINK-CODE-541014", "STARLINK-CODE-892104", "STARLINK-CODE-310482"]},
+    "NA608": {"type": "Normal (N/A Limited)", "status": "ACTIVE", "codes": ["STARLINK-CODE-570643", "STARLINK-CODE-742385", "STARLINK-CODE-503216"]},
+    "NA704": {"type": "Normal (N/A Limited)", "status": "ACTIVE", "codes": ["STARLINK-CODE-806757", "STARLINK-CODE-488300", "STARLINK-CODE-682636"]},
 
-    # --- NORMAL 1H 30M KEYS (62) ---
+    # --- NORMAL KEYS 1h 30m (59) ---
     "KEY741": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-084136", "STARLINK-CODE-216764", "STARLINK-CODE-662765"]},
     "KEY915": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-104734", "STARLINK-CODE-866280", "STARLINK-CODE-015243"]},
     "KEY382": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-262524", "STARLINK-CODE-624776", "STARLINK-CODE-125407"]},
@@ -87,47 +90,14 @@ KEY_DATABASE = {
     "KEY216": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-042375", "STARLINK-CODE-710555", "STARLINK-CODE-483654"]},
     "KEY539": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-183844", "STARLINK-CODE-221478", "STARLINK-CODE-848075"]},
     "KEY862": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-723277", "STARLINK-CODE-380281", "STARLINK-CODE-674526"]},
-    "KEY802": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-802104", "STARLINK-CODE-318491", "STARLINK-CODE-701248"]},
-    "KEY341": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-341905", "STARLINK-CODE-612481", "STARLINK-CODE-109482"]},
-    "KEY519": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-519204", "STARLINK-CODE-810249", "STARLINK-CODE-409124"]},
-    "KEY276": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-276914", "STARLINK-CODE-501924", "STARLINK-CODE-810248"]},
-    "KEY934": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-934810", "STARLINK-CODE-192048", "STARLINK-CODE-610294"]},
-    "KEY167": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-167902", "STARLINK-CODE-481029", "STARLINK-CODE-710294"]},
-    "KEY428": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-428901", "STARLINK-CODE-201948", "STARLINK-CODE-510294"]},
-    "KEY695": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-695810", "STARLINK-CODE-301924", "STARLINK-CODE-910248"]},
-    "KEY111": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-111204", "STARLINK-CODE-301928", "STARLINK-CODE-410294"]},
-    "KEY222": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-222904", "STARLINK-CODE-510294", "STARLINK-CODE-610284"]},
-    "KEY333": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-333810", "STARLINK-CODE-710294", "STARLINK-CODE-810294"]},
-    "KEY444": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-444910", "STARLINK-CODE-910294", "STARLINK-CODE-102948"]},
-    "KEY555": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-555019", "STARLINK-CODE-201948", "STARLINK-CODE-310294"]},
-    "KEY666": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-666102", "STARLINK-CODE-410294", "STARLINK-CODE-510294"]},
-    "KEY777": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-777201", "STARLINK-CODE-610294", "STARLINK-CODE-710294"]},
-    "KEY888": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-888301", "STARLINK-CODE-810294", "STARLINK-CODE-910294"]},
-    "KEY999": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-999401", "STARLINK-CODE-102948", "STARLINK-CODE-201948"]},
-    "KEY101": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-101502", "STARLINK-CODE-310294", "STARLINK-CODE-410294"]},
-    "KEY202": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-202603", "STARLINK-CODE-510294", "STARLINK-CODE-610294"]},
-    "KEY303": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-303704", "STARLINK-CODE-710294", "STARLINK-CODE-810294"]},
-    "KEY404": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-404805", "STARLINK-CODE-910294", "STARLINK-CODE-102948"]},
-    "KEY505": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-505906", "STARLINK-CODE-201948", "STARLINK-CODE-310294"]},
-    "KEY606": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-606017", "STARLINK-CODE-410294", "STARLINK-CODE-510294"]},
-    "KEY707": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-707128", "STARLINK-CODE-610294", "STARLINK-CODE-710294"]},
-    "KEY808": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-808239", "STARLINK-CODE-810294", "STARLINK-CODE-910294"]},
-    "KEY909": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-909340", "STARLINK-CODE-102948", "STARLINK-CODE-201948"]},
-    "KEY121": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-121451", "STARLINK-CODE-310294", "STARLINK-CODE-410294"]},
-    "KEY232": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-232562", "STARLINK-CODE-510294", "STARLINK-CODE-610294"]},
-    "KEY343": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-343673", "STARLINK-CODE-710294", "STARLINK-CODE-810294"]},
-    "KEY454": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-454784", "STARLINK-CODE-910294", "STARLINK-CODE-102948"]},
-    "KEY565": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-565895", "STARLINK-CODE-201948", "STARLINK-CODE-310294"]},
-    "KEY676": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-676906", "STARLINK-CODE-410294", "STARLINK-CODE-510294"]}
-}
-# --- NEW VIP 3H KEYS (2) ---
-    "VIP712": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-764127", "STARLINK-CODE-885753"]},
-    "VIP935": {"type": "VIP (3 Hours)", "status": "ACTIVE", "codes": ["STARLINK-CODE-434464", "STARLINK-CODE-811545"]},
-
-    # --- NEW NA LIMITED KEY (1) ---
-    "NA704": {"type": "Normal (N/A Limited)", "status": "ACTIVE", "codes": ["STARLINK-CODE-806757", "STARLINK-CODE-488300", "STARLINK-CODE-682636"]},
-
-    # --- NEW NORMAL 1H 30M KEYS (12) ---
+    "KEY802": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-388330", "STARLINK-CODE-358251", "STARLINK-CODE-455317"]},
+    "KEY341": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-046135", "STARLINK-CODE-356746", "STARLINK-CODE-264545"]},
+    "KEY519": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-615880", "STARLINK-CODE-644334", "STARLINK-CODE-027341"]},
+    "KEY276": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-028175", "STARLINK-CODE-044027", "STARLINK-CODE-414040"]},
+    "KEY934": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-858718", "STARLINK-CODE-688765", "STARLINK-CODE-123338"]},
+    "KEY167": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-065281", "STARLINK-CODE-777845", "STARLINK-CODE-252443"]},
+    "KEY428": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-055818", "STARLINK-CODE-431508", "STARLINK-CODE-345553"]},
+    "KEY695": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-835215", "STARLINK-CODE-182346", "STARLINK-CODE-331631"]},
     "KEY814": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-803563", "STARLINK-CODE-768427", "STARLINK-CODE-172666"]},
     "KEY293": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-517048", "STARLINK-CODE-131243", "STARLINK-CODE-030408"]},
     "KEY615": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-264602", "STARLINK-CODE-848750", "STARLINK-CODE-267273"]},
@@ -139,7 +109,17 @@ KEY_DATABASE = {
     "KEY912": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-041482", "STARLINK-CODE-787781", "STARLINK-CODE-445446"]},
     "KEY638": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-033883", "STARLINK-CODE-302001", "STARLINK-CODE-260704"]},
     "KEY274": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-484116", "STARLINK-CODE-754672", "STARLINK-CODE-708878"]},
-    "KEY501": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-407848", "STARLINK-CODE-715023", "STARLINK-CODE-918247"]}
+    "KEY501": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-407848", "STARLINK-CODE-715023", "STARLINK-CODE-918247"]},
+    "KEY739": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-739101", "STARLINK-CODE-739102", "STARLINK-CODE-739103"]},
+    "KEY184": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-184201", "STARLINK-CODE-184202", "STARLINK-CODE-184203"]},
+    "KEY625": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-625301", "STARLINK-CODE-625302", "STARLINK-CODE-625303"]},
+    "KEY492": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-492401", "STARLINK-CODE-492402", "STARLINK-CODE-492403"]},
+    "KEY831": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-831501", "STARLINK-CODE-831502", "STARLINK-CODE-831503"]},
+    "KEY367": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-367601", "STARLINK-CODE-367602", "STARLINK-CODE-367603"]},
+    "KEY958": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-958701", "STARLINK-CODE-958702", "STARLINK-CODE-958703"]},
+    "KEY246": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-246801", "STARLINK-CODE-246802", "STARLINK-CODE-246803"]},
+    "KEY573": {"type": "Normal (1h 30m)", "status": "ACTIVE", "codes": ["STARLINK-CODE-573901", "STARLINK-CODE-573902", "STARLINK-CODE-573903"]}
+}
 
 used_keys = set()
 
